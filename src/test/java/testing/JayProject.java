@@ -21,6 +21,7 @@ public class JayProject {
 		// TODO Auto-generated method stub
 
 		WebDriverManager.chromedriver().setup();
+		System.out.println("From Shrome");
 
 		WebDriver driver = new ChromeDriver();
 
